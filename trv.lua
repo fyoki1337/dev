@@ -1,5 +1,6 @@
-local pitch = menu.find("antiaim","main", "angles","pitch")
 local lib = require("primordial/Player state library.641")
+
+local pitch = menu.find("antiaim","main", "angles","pitch")
 local enable = menu.add_checkbox("Pitch Exploit", "Enable")
 local selection = menu.add_multi_selection("Pitch Exploit", "Exploit When", {"Standing", "Running", "Slowwalk", "Crouch", "Jump", "Jump-Crouch"})
 local slider = menu.add_slider("Pitch Exploit", "Speed", 1, 100)
